@@ -1,0 +1,3 @@
+export const MONGODB_URL = process.env.REACT_MONGO_DB_PORT
+export const MONGODB_URL_USERNAME = process.env.REACT_MONGO_DB_USERNAME
+export const MONGODB_URL_PASSWORD = process.env.REACT_MONGO_DB_PASSWORD
