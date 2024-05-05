@@ -1,9 +1,9 @@
-import { Button } from '@nextui-org/react'
+import Confessions from '@/modules/home/Confessions'
 
 export default function Home() {
   return (
     <main>
-      <Button color="primary">Button</Button>
+      <Confessions />
     </main>
   )
 }

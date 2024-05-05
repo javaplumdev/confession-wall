@@ -2,14 +2,20 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "21.6.2",
+    "npm": "10.6.2"
+  },
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 8080",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@loadable/component": "^5.16.4",
     "@nextui-org/react": "^2.3.6",
+    "@types/loadable__component": "^5.13.9",
     "axios": "^1.6.8",
     "framer-motion": "^11.1.7",
     "next": "14.2.3",

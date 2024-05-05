@@ -26,7 +26,7 @@ router.post('/', async (req, res) => {
 // get all posts
 router.get('/', async (_, res) => {
   try {
-    const posts = await Content.find({})
+    const posts = await Content.find().sort({ createdAt: -1 })
 
     return res.status(200).json({
       count: posts.length,
